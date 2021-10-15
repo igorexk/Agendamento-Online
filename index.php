@@ -3,8 +3,8 @@ echo "Pagina Incial";
 ?>
 
 <HR>
-<a href="" >Login</a> 
+<a href="login/index.php" >Login</a> 
 
 <HR>
-<a href="" >Cadastro</a> 
+<a href="login/cadastro_usuario.php" >Cadastro</a> 
 
