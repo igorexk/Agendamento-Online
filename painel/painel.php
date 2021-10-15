@@ -1,5 +1,5 @@
 <?php
-include('login\php\verifica_login.php');
+include('../php/verifica_login.php');
 ?>
 
 <h2>Ola, 
@@ -10,6 +10,6 @@ include('login\php\verifica_login.php');
 
 <h2>
 
-	<a href="login\php\logout.php">Sair</a>
+	<a href="../php/logout.php">Sair</a>
 
 </h2>

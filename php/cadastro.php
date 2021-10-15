@@ -9,7 +9,7 @@ include('conexao.php');
         if ($_POST['senha'] == "") {
         	$_SESSION['igualdade'] = false;
             $mensagem = "O campo senha esta vazio.";
-            header('Location: ./../cadastro_usuario.php');
+            header('Location: ../login/cadastro_usuario.php');
 
         } else if ($_POST['senha'] == $_POST['repete_senha']) {
            	$_SESSION['igualdade'] = true;
@@ -28,12 +28,12 @@ include('conexao.php');
          		}
 
          	
-            header('Location: ./../cadastro_usuario.php');	
+            header('Location: ../login/cadastro_usuario.php');	
 
         	} else {
         	$_SESSION['igualdade'] = false;
             $mensagem = "As senhas não conferem!";
-            header('Location: ./../cadastro_usuario.php');
+            header('Location: ../login/cadastro_usuario.php');
         	}         
          		
          		$_SESSION['mensagem_confirma_senha'] = $mensagem;

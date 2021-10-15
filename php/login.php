@@ -6,7 +6,7 @@ include('conexao.php');
 
 if(empty($_POST['usuario']) || empty($_POST['senha']))
 {
-	header('Location: ./../index.php');
+	header('Location: ./login/index.php');
 	exit();
 }
 
@@ -31,7 +31,7 @@ $row = mysqli_num_rows($result);
 
 if($row == 1){
 	$_SESSION['usuario'] = $usuario;
-	header('Location: ./../painel.php');
+	header('Location: ../painel/painel.php');
 	exit();
 } else {
 
@@ -41,7 +41,7 @@ if($row == 1){
 
 /* redirecionamento para pagina principal */
 
-	header('Location: ./../index.php');
+	header('Location: ../login/index.php');
 	exit();
 }
 

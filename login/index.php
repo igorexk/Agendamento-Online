@@ -38,7 +38,7 @@ session_start()
                     ?>
 
                     <div class="box">
-                        <form action="./php/login.php" method="POST">
+                        <form action="../php/login.php" method="POST">
                             <div class="field">
                                 <div class="control">
                                     <input name="usuario" class="input is-large" placeholder="Seu usuário" autofocus="">

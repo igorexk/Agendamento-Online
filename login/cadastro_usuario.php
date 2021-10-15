@@ -41,7 +41,7 @@ session_start()
                     ?>
 
                     <div class="box">
-                        <form action=".\php\cadastro.php" method="POST">
+                        <form action="..\php\cadastro.php" method="POST">
 
                             <div class="field">
                                 <div class="control">
